@@ -14,7 +14,7 @@ minute = date.minute + 1
 
 message = input("Enter the message: ")
 
-phone_number = input("Enter the phone number: ")
+phone_number = "+556796192065"
 
 # Send the message in a feel seconds
 
