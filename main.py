@@ -14,7 +14,7 @@ minute = date.minute + 1
 
 message = input("Enter the message: ")
 
-phone_number = "+556796192065"
+phone_number = input("Enter the number: ")
 
 # Send the message in a feel seconds
 
@@ -25,11 +25,17 @@ pywhatkit.sendwhatmsg_instantly(phone_number, message)
 
 time.sleep(7)
 
-# webdriver setup
+# Webdriver setup
 driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()))
 driver.switch_to.window(driver.window_handles[0])
 
 # Find the enter button on whataspp web and click it
 send_button = driver.find_element(By.XPATH, '//button[@data-testid="compose-btn-send"]')
 send_button.click()
+
+# Wait a few seconds to ensure the message was sent and close the browser
+time.sleep(3)
+
+driver.quit()
+
 
