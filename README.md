@@ -41,4 +41,4 @@ O script usará o número fornecido e enviará a mensagem inserida para esse nú
 ## Observações
 
 - O script usa o Microsoft Edge, certifique-se de ter o navegador instalado.
-- É necessário escanear o QR Code do WhatsApp Web antes de rodar o script.
+- É necessário escanear o QR Code do WhatsApp Web antes de rodar o script caso não esteja logado.
