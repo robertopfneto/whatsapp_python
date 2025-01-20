@@ -14,7 +14,7 @@ minute = date.minute + 1
 
 message = input("Enter the message: ")
 
-phone_number = "+556796192065"
+phone_number = input("Enter the number: ")
 
 # Send the message in a feel seconds
 #pywhatkit.sendwhatmsg(phone_number, message, hour, minute)
