@@ -35,14 +35,10 @@ O script usará o número fornecido e enviará a mensagem inserida para esse nú
 
 ## Funcionamento
 
-1. **Envio Instantâneo**: O `pywhatkit.sendwhatmsg_instantly` envia a mensagem diretamente.
-2. **Automação com Selenium**: O Selenium é usado para clicar automaticamente no botão de envio do WhatsApp Web.
+1. Envio Instantâneo: O `pywhatkit.sendwhatmsg_instantly` envia a mensagem diretamente.
+2. Automação com Selenium: O Selenium é usado para clicar automaticamente no botão de envio do WhatsApp Web.
 
 ## Observações
 
 - O script usa o Microsoft Edge, certifique-se de ter o navegador instalado.
 - É necessário escanear o QR Code do WhatsApp Web antes de rodar o script.
-
-## Autor
-
-Este script foi desenvolvido por **Roberto Pereira de Freitas Neto**.
